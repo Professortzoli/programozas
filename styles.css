@@ -1,6 +1,7 @@
 body {
   background-color: rgb(111, 111, 111);
   background-size: cover;
+  background-image: url(Back.jpg);
 }
 
 p {
@@ -13,10 +14,18 @@ p {
   margin-top: 40px;
   background-color: rgba(255, 255, 255, 0.85);
   border-radius: 30px;
+  width: 80%;
+  padding: 30px;
+  display: block;
+  margin: auto;
 }
 
-a {
+a{
   color: black;
+  text-decoration: none;
+}
+a:hover{
+  color: red;
 }
 
 #picture {
@@ -37,4 +46,29 @@ li {
 table {
   width: 80%;
   margin: auto;
+  text-align: center;
+}
+#kozep
+{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 1.8rem;
+  margin: auto;
+  text-align: center;
+}
+p
+{
+  text-align: justify;
+  line-height: 120%;
+  text-indent: 0px;
+}
+td
+{border: 1px solid grey;
+padding: 5px;
+}
+th
+{
+  background-color: #087ACB;
+  color: white;
+  
 }
